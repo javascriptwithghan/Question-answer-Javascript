@@ -1,11 +1,14 @@
-// how we evaluate the variables are undefined or null?
+// how we check the variables are undefined or null?
 
 let x  = null;
 
+// Type 1
 if(x === undefined) {
     console.log(x+" is not defind");
 }
 
+
+// Type 2
 const person = {
     fname:"ghan"
 };
@@ -13,4 +16,14 @@ const person = {
 if(typeof person.age === 'undefined') {
     console.log(" age is not defind");
 }
-// console.log(x);
+
+
+
+// Nullish operator  // Type 3
+
+const personNullish = {
+fname:'ghan'
+};
+
+person.age ??= 20;
+console.log(personNullish.age); // 20
