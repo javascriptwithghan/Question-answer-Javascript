@@ -27,19 +27,19 @@
 // console.log(display());
 
 
-const person = {
-    name: 'ghan',
-    language: ['english', 'hindi', 'french', 'american'],
-    display: function() {
-        // console.log('Inside method');
-        // var that = this;
-        console.log(this.name);
-        this.language.forEach((res) => {
-            console.log(this.language);
-            // console.log(res);
-        });
+// const person = {
+//     name: 'ghan',
+//     language: ['english', 'hindi', 'french', 'american'],
+//     display: function() {
+//         // console.log('Inside method');
+//         // var that = this;
+//         console.log(this.name);
+//         this.language.forEach((res) => {
+//             console.log(this.language);
+//             // console.log(res);
+//         });
         
-    }
-}
+//     }
+// }
 
-person.display();
+// person.display();
