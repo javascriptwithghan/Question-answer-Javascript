@@ -19,14 +19,11 @@
 
 
 // var someText = "Hi how are you, javascript classes going On";
-
 // var checkingValue = someText.includes('hi');
-
 // console.log(checkingValue);
 
 
 var name = "Ghan";
-
 console.log(name.charAt(0));
 
 
